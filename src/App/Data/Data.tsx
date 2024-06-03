@@ -8,21 +8,21 @@ import six from '../../assets/images/6.jpg'
 import seven from '../../assets/images/7.jpg'
 import  eight from '../../assets/images/8.jpg'
 import nine from '../../assets/images/9.jpg'
-import Dano from '../../assets/images/dano.png'
-import Rush from '../../assets/images/rush.jpeg'
-import TV3 from '../../assets/images/tv3.jpg'
-interface contestant {
-    name: string;
-    picture:unknown;
-    shortCode:string;
-  }
+// import Dano from '../../assets/images/dano.png'
+// import Rush from '../../assets/images/rush.jpeg'
+// import TV3 from '../../assets/images/tv3.jpg'
+// interface contestant {
+//     name: string;
+//     picture: string | undefined;
+//     shortCode:string;
+//   }
 
-interface AD {
-    name:string;
-    Pic:unknown;
-}
+// interface AD {
+//     name:string;
+//     Pic:string | undefined;
+// }
 
-const Data:contestant[] =[
+const Data=[
     {
         name:'Julius Sed',
         shortCode:'447',
@@ -75,7 +75,7 @@ const Data:contestant[] =[
     },
 ]
 
-const sponsors :AD[] =[
+const sponsors=[
     {
         name:'Dano Milk',
         Pic:''
